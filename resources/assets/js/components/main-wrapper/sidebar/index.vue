@@ -163,7 +163,10 @@ export default {
   }
 
   a.droppable {
-    transform: scale(1.2);
+    height: 45px;
+    line-height: 45px;
+    font-size: 115%;
+    padding-left: 20px;
     transition: .3s;
     transform-origin: center left;
 
